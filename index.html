@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simon Currie's Portfolio</title>
+    <style>
+        .img-container {
+          text-align: center;
+        }
+      </style>
 </head>
 <body>
-    <header>
+    <header id="home-header" style="background-color: bisque;">
         <nav>
             <ul>
                 <li><a href="contact.html">Contact</a></li>
@@ -16,24 +21,25 @@
         </nav>
     </header>
     <main>
-        <img src="Assets/simon-currie-headshot.jpg" alt="picture of simon">
-        <h1>Simon Currie</h1>
+        <div id="img-container">
+        <img src="Assets/simon-currie-headshot.jpg" alt="picture of simon"></div>
+        <h1 id="name" style="text-align: center;">Simon Currie</h1>
         <hr>
         <h2><em>Data Nerd. Code Monkey. Aspiring DevOps Engineer</em></h2>
         <br>
-        <section>
+        <section class="contact-section", style="background-color: wheat;">
         <h3>Contact</h3>
             <p><ul>
                 <li><strong>Phone: </strong>778-238-0969</li>
                 <li><strong>Email: </strong>scurrie90@gmail.com</li>
                 <li><strong>GitHub: </strong>scurrie90</li></ul></p>
         </section>
-        <aside>
+        <section class="content-section" style="font-family: Arial, Helvetica, sans-serif;">
             <h3>About Me</h3>
             <p>I'm an ex-marketer who found the technical side of things far more interesting and started my journey into software development. <br> I have a degree in Philosophy and Economics, as well as most of a degree in math, from the University of British Columbia</p>
             <h3>Experience</h3>
             <p>Ipso Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint et blanditiis ipsum, beatae sed optio harum qui numquam quos unde explicabo molestias corporis dolorum exercitationem architecto quae adipisci, repudiandae voluptas.</p> 
-        </aside>
+        </section>
     </main>
     <footer>
         <hr>
