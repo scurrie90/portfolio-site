@@ -6,13 +6,40 @@
     <title>Document</title>
 </head>
 <body>
+    <header>
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="#">###</a></li>
             <li><a href="#">###</a></li>
         </ul>
-    </nav>
-    <p>For inquiries, please e-mail <a href="mailto:scurrie90@gmail.com">Simon Currie</a><br>Ipso Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sunt officiis corporis porro architecto illum non quam harum aliquid sed exercitationem repellat alias nostrum fuga labore, recusandae soluta aliquam. Excepturi!</p>
+    </nav></header>
+    <main>
+    <section>For inquiries, please e-mail <a href="mailto:scurrie90@gmail.com">Simon Currie</a> or fill out the form below and I will get in touch.</section>
+    <div>
+        <form>
+            <label for="firstName">First Name</label>
+            <input type="text" placeholder="Enter your First Name">
+
+            <label for="lastName">Last Name</label>
+            <input type="text" placeholder="Enter your Last Name">
+
+            <label for="country">Country</label>
+            <select>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+                <option value="india">India</option>
+            </select>
+
+            <label for="comment">Comment</label>
+            <textarea placeholder="write a comment..."></textarea>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    </main>
+    <footer>
+        <hr>
+        <section>&copy; Copyright 2020 Simon Currie. <a href="mailto:scurrie90@gmail.com">Contact</a></section>
+    </footer>
 </body>
 </html>
